@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Title goes here</title>
+  <meta name="description" content="Description of your site goes here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ <link href="development-bundle/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+      <script src="js/jquery-1.10.2.js"></script>
+      <script src="development-bundle/ui/jquery-ui.js"></script>
+      <style>
+  .toggler { width: 0px; height: 0px; position: relative;background: #FFFFFF; color:#000000; }
+  #button { padding: .5em 1em; text-decoration: none; }
+  
+  .newClass { width:500px; height: 320px; position: relative;background: #FFFFFF; color: #000000;}
+  </style>
+    
+    <script>
+    $( document ).ready(function() {
+$("#effect").hide();
+});
+    
+    var x=0;
+  $(function() {
+    $( "#button" ).click(function() {
+      $( ".toggler" ).toggleClass("newClass", 2000 );
+      if(x==1)
+      {
+      $("#effect").hide();
+      x=0;
+       $( "#button" ).text("Expand")
+      }
+      else
+      {
+      $("#effect").show();
+      x=1;
+       $( "#button" ).text("Shrink")
+      }
+          });
+  });
+  </script>  
+</head>
+<body>
+
+<div class="container">
+    <nav role="navigation" class="navbar navbar-inverse">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+        </div>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Tutorial List<b class="caret"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="#">Basic Android</a></li>
+                        <li><a href="#">Advanced android</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Code</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form role="search" class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" placeholder="Search" class="form-control">
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="row">
+	<div style="padding-left: 30px; padding-right: 30px;">
+		<div class="col-sm-6 col-md-4 col-lg-8">
+
+    </div>
+	<div class="col-sm-6 col-md-4 col-lg-8">
+<h1>NavinsAndroid Tutorial <span class="label label-default">A Practical approach</span></h1>
+</div>
+
+<div class="img-rounded" ><img src="images/Android-version.jpg"  alt="" height="506"
+ width="1206"></div>
+</div>
+</div>
+<div class="content">
+<div class="left-panel">
+<h2>Main Menu</h2>
+<ul>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2014/05/android-navigation-drawerfragments-and.html">Android Navigation Drawer Tutorial</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2014/05/android-aidl-remote-services-and-upload.html">Android Remote Services Tutorial</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2014/04/android-alarm-manager-service-and.html">Android Alarm Manager Tutorial</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2014/04/android-localization-tutorial.html">Android Localization Tutorial</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2014/03/calling-another-application-component.html">Android Calling Another application component</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2014/03/android-widget-tutorial.html">Android Wigdet Tutorial</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2014/03/application-context-in-android-tutorial.html">Context and Application Context in Android Tutorial</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2014/01/android-tutorial-on-checking-internet.html">Android Tutorial on Checking Internet Connection</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2014/01/android-animation-tutorial.html">Android Animation Tutorial</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2013/12/android-json-based-web-services-tutorial.html">Android JSON based Web Services tutorial</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2013/12/android-soap-based-web-services.html">ANDROID SOAP BASED WEB SERVICES TUTORIAL</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2013/10/maps-and-location-service-tutorial.html">MAPS and LOCATION SERVICE TUTORIAL</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2013/07/content-providers-in-android-complete.html">Content Provider in Android Complete Tutorial</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2013/07/yahoo-weather-using-rss-feed.html">Yahoo Weather using RSS feed</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2013/06/android-services-unbound-and-bound.html">Android Services Unbound and Bound Tutorial</a></li>
+  <li><a href="http://navinsandroidtutorial.blogspot.in/2013/05/android-networking-post-data-to-servlet.html">AsyncTask and HttpClient to post data to Servlet Tutorial</a></li>
+</ul>
+</div>
+<div class="right-panel">
+<h1 class="title">Navin's Android Tutorial</h1>
+<p><strong>Mobile Application trends</strong> By the end of 2013, mobile phones have overtaken PCs as the most common way to access the internet, according to research company Gartner. Looking at the recent trends, mobile phones are not just for making calls anymore in fact a study revealed that making phone calls with the smartphone was only the fifth most popular use for the gadget. People spend more time using their smartphones for browsing the web, checking emails, using mobile applications, social networks, games, music and more. As more and more devices penetrating the market, the need for appropriate apps have also increased for consumers and enterprises both. More than 1.7 million applications have been downloaded 65 billion times and the numbers are rapidly increasing
+Android remains the leader in the smartphone operating system market.Android and iOS, the number one and number two ranked smartphone operating systems (OS) worldwide, combined for 92.3% of all smartphone shipments during the first quarter of 2013 (1Q13) as Windows Phone crept past BlackBerry for 3rd place. According to the International Data Corporation (IDC) Worldwide Quarterly Mobile Phone Tracker, Android smartphone vendors and Apple shipped a total of 199.5 million units worldwide during 1Q13, up 59.1% from the 125.4 million units shipped during 1Q12.
+</p>
+
+</head>
+<body>
+ <button id="button" class="ui-state-default ui-corner-all">Expand</button>
+<div class="toggler">
+ 
+   <table id="effect"class="table table-hover">
+      <caption>Worldwide Smartphone Sales to End Users by Operating System in 2013 (Thousands of Units)</caption>
+      <thead>
+         <tr>
+            <th>Operating System</th>
+            <th>2013 Units</th>
+            <th>2013 Market Share (%)</th>
+            <th>2012 Units</th>
+            <th>2012 Market Share (%)</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Android</td>
+            <td>758,719.9</td>
+            <td>78.4</td>
+            <td>451,621.0</td>
+            <td>66.4</td>
+         </tr>
+         <tr>
+            <td>iOS</td>
+            <td>150,785.9</td>
+            <td>15.6</td>
+            <td>130,133.2</td>
+            <td>19.1</td>
+         </tr>
+         <tr>
+            <td>Microsoft</td>
+            <td>30,842.9</td>
+            <td>3.2</td>
+            <td>16,940,7</td>
+            <td>2.5</td>
+         </tr>
+      <tr>
+            <td>BlackBerry</td>
+            <td>18,605.9</td>
+            <td>1.9</td>
+            <td>34,210.3</td>
+            <td>5.0</td>
+         </tr>
+           <tr>
+            <td>Other OS</td>
+            <td>8,821.2</td>
+            <td>0.9</td>
+            <td>47,203.0</td>
+            <td>6.9</td>
+         </tr>
+
+      </tbody>
+   </table>
+
+</div>
+<p><strong>Android</strong>  is a software stack for mobile devices that includes an operating system(Linux-based operating system kernel), middleware and key applications   designed primarily for touchscreen mobile devices such as smartphones and tablet computers. Initially developed by Android, Inc., which Google backed financially and later bought in 2005, Android was unveiled in 2007 along with the founding of theOpen Handset Alliance: a consortium of hardware, software, and telecommunication companies devoted to advancing open standards for mobile devices. 
+Android is open source and Google releases the code under the Apache License.] This open source code and permissive licensing allows the software to be freely modified and distributed by device manufacturers, wireless carriers and enthusiast developers. Additionally, Android has a large community of developers writing applications ("apps") that extend the functionality of devices, written primarily in a customized version of the Javaprogramming language.
+ Android is the software of choice for technology companies who require a low-cost, customizable, lightweight operating system for high tech devices without developing one from scratch. As a result, despite being primarily designed for phones and tablets, it has seen additional applications on televisions, games consoles, digital cameras and other electronics. Android's open nature has further encouraged a large community of developers and enthusiasts to use the open source code as a foundation for community-driven projects, which add new features for advanced users or bring Android to devices which were officially released running other operating systems.
+</p>
+<p>&nbsp;</p>
+<h1 class="title">About the Android Tutorial</h1>
+<p><strong>Android Programming:</strong> This tutorial comprehensively covers the programming features of android done through java.The tutorial has set of 
+	exercises potraying the usage of features explained through practical approach.The excercise projects are designed to provide cue so that it can be implemented in real projects.
+	The tutorial covers 1.Android UI features 2.Android buiding block components 3.Android Networking 4.Android's usage of other services are well explained through practical demonstrative projects</p>
+<p>&nbsp;</p>
+</div>
+</div>
+<!--DO NOT Remove The Footer Links-->
+<!--Designed by--><a href="http://www.htmltemplates.net">
+<img src="images/footnote.gif" class="copyright" alt="htmltemplates.net"></a>
+<div class="footer">Tutorial Developed by <a target="_blank"
+ href="http://www.navinsandroidtutorial.blogspot.in/">Navin K</a>
+<!--DO NOT Remove The Footer Links-->
+<!--<div class="main">
+<div class="page">
+<div class="header">
+
+</div>-->
+</div>
+</div>
+</body>
+</html>
